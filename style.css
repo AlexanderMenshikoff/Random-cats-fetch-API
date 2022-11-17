@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-container {
+  width: 800px;
+  height: 500px;
+  background-color: black;
+}
+
+.randomPhoto {
+  position: absolute;
+  background-color: black;
+  color: #ffff;
+  margin-top: 520px;
+  border-radius: 30px;
+  border: none;
+  height: 50px;
+  width: 150px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+}
+
+.randomPhoto:hover {
+  background-color: coral;
+  color: rgb(0, 0, 0);
+  transition-duration: 500ms;
+}
